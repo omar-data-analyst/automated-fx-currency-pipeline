@@ -1,2 +1,3 @@
-# حماية مفاتيح Google Cloud
+# حماية مفاتيح GCP والملفات الحساسة
 *.json
+pigquery key.json
