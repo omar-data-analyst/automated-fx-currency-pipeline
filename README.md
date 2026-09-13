@@ -89,7 +89,8 @@ Below are complex analytics queries executed directly on the data warehouse.
 
 ### 3. Extreme Market Anomaly Detection (Spikes & Drops)
 <p align="center">
-  ![Uploading SQL Code 2.png…]()
+  <img width="965" height="488" alt="SQL Code 2" src="https://github.com/user-attachments/assets/e011d0ab-c6d8-4a85-a93a-c7aa429adb9e" />
+
 
 </p>
 
