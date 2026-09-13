@@ -1,0 +1,5 @@
+pandas
+requests
+prefect
+google-cloud-bigquery
+google-auth
