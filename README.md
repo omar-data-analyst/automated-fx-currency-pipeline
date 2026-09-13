@@ -123,7 +123,5 @@ Below are complex analytics queries executed directly on the data warehouse.
 
 ---
 
-## 🛡️ Security & Privacy
-No private credentials or GCP JSON keys are stored in this repository. All sensitive parameters are managed locally via environment variables and excluded via .gitignore. The BigQuery dataset is configured with public read-only access for demonstration purposes.
 ## 🛡️ Security
 All sensitive API credentials, Service Account JSON keys, and tokens are protected via .gitignore.
