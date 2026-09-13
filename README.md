@@ -110,18 +110,20 @@ Below are complex analytics queries executed directly on the data warehouse.
 ## ⚙️ How to Run Locally
 
 1. **Clone Repository:**
-   git clone https://github.com/your-username/Currency-ETL-Pipeline.git
+   git clone https://github.com/omar-data-analyst/automated-fx-currency-pipeline
 
 2. **Install Dependencies:**
    pip install -r requirements.txt
 
-3. **Environment Setup:**
-   Ensure your GCP Service Account JSON key is placed safely outside version control and configure your Telegram credentials.
+3. **Configure Environment:**
+   Set up your own Google Cloud Service Account credentials and Telegram Bot token variables if you wish to run the ingestion flow to your own destination.
 
 4. **Execute Pipeline:**
    python "Pipline Code.py"
 
 ---
 
+## 🛡️ Security & Privacy
+No private credentials or GCP JSON keys are stored in this repository. All sensitive parameters are managed locally via environment variables and excluded via .gitignore. The BigQuery dataset is configured with public read-only access for demonstration purposes.
 ## 🛡️ Security
 All sensitive API credentials, Service Account JSON keys, and tokens are protected via .gitignore.
